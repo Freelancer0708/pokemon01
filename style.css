@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: skyblue;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.ball-bg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+    animation: rotate 8s linear infinite;
+}
+.ball {
+    position: relative;
+}
+.ball-top {
+    width: 200px;
+    height: 100px;
+    background: red;
+    border-radius: 100px 100px 0 0;
+}
+.ball-bottom {
+    width: 200px;
+    height: 100px;
+    background: #fff;
+    border-radius: 0 0 100px 100px;
+}
+.ball-line {
+    position: absolute;
+    height: 10px;
+    width: 200px;
+    background: #000;
+}
+.ball-outline {
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    background: #000;
+    border-radius: 50%;
+}
+.ball-inline {
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    background: #fff;
+    border-radius: 50%;
+}
+.ball-button {
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    background: #fff;
+    border-radius: 50%;
+    box-shadow: 0 0 0 2px #e0e0e0;
+}
+/* @keyframes rotate
+{
+    from
+    {
+        transform: rotateY(0deg);
+    }
+    to
+    {
+        transform: rotateY(360deg);
+    }
+} */
+.surperball-top
+{
+    position: relative;
+    width: 200px;
+    height: 100px;
+    background: blue;
+    border-radius: 100px 100px 0 0;
+}
+.surper-left
+{
+    position: absolute;
+    margin-top: -70px;
+    margin-left: -110px;
+    height: 200px;
+    width: 200px;
+    background: url('img/surper.png');
+    background-size: 300px;
+}
+.surper-right
+{
+    position: absolute;
+    transform: scale(-1,1);
+    margin-top: -70px;
+    margin-left: 110px;
+    height: 200px;
+    width: 200px;
+    background: url('img/surper.png');
+    background-size: 300px;
+}
+.hiperball-top
+{
+    position: relative;
+    width: 200px;
+    height: 100px;
+    background: #252525;
+    border-radius: 100px 100px 0 0;
+}
+.hiper-left
+{
+    position: absolute;
+    margin-top: -52px;
+    margin-left: -60px;
+    height: 200px;
+    width: 200px;
+    background: url('img/hiper.png');
+    background-size: 280px 280px;
+}
+.hiper-right
+{
+    position: absolute;
+    transform: scale(-1,1);
+    margin-top: -52px;
+    margin-left: 60px;
+    height: 200px;
+    width: 200px;
+    background: url('img/hiper.png');
+    background-size: 280px 280px;
+}
+.masterball-top
+{
+    position: relative;
+    width: 200px;
+    height: 100px;
+    background: purple;
+    border-radius: 100px 100px 0 0;
+}
+.master-left
+{
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 5px;
+    height: 70px;
+    width: 70px;
+    background: fuchsia;
+    border-radius: 200% 30% 200% 30% / 200% 30% 200% 30%;
+}
+.master-M
+{
+    font-family: 'Alata', sans-serif;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 80px;
+    font-size: 40px;
+    color: #fff;
+}
+.master-right
+{
+    position: absolute;
+    transform: scale(-1,1);
+    margin-top: 0px;
+    margin-left: 125px;
+    height: 70px;
+    width: 70px;
+    background: fuchsia;
+    border-radius: 200% 30% 200% 30% / 200% 30% 200% 30%;
+}
